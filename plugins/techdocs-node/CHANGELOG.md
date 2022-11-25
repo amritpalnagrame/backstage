@@ -1,5 +1,18 @@
 # @backstage/plugin-techdocs-node
 
+## 1.4.3-next.1
+
+### Patch Changes
+
+- 0a61aab172: Bump dependency @azure/identity to next minor
+- Updated dependencies
+  - @backstage/backend-common@0.16.1-next.1
+  - @backstage/config@1.0.5-next.0
+  - @backstage/integration@1.4.1-next.0
+  - @backstage/catalog-model@1.1.4-next.0
+  - @backstage/errors@1.1.4-next.0
+  - @backstage/plugin-search-common@1.1.2-next.0
+
 ## 1.4.3-next.0
 
 ### Patch Changes

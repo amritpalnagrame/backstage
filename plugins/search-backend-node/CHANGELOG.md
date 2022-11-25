@@ -1,5 +1,18 @@
 # @backstage/plugin-search-backend-node
 
+## 1.0.5-next.1
+
+### Patch Changes
+
+- 54c5836f7a: Use of `TestPipeline.withSubject()` is now deprecated. Instead, use the `fromCollator`, `fromDecorator`, or `fromIndexer` static methods to instantiate a test pipeline. You may also use the class' `withCollator`, `withDecorator`, and `withIndexer` instance methods to build test pipelines that consist of multiple test subjects.
+- Updated dependencies
+  - @backstage/backend-common@0.16.1-next.1
+  - @backstage/backend-tasks@0.3.8-next.1
+  - @backstage/config@1.0.5-next.0
+  - @backstage/errors@1.1.4-next.0
+  - @backstage/plugin-permission-common@0.7.2-next.0
+  - @backstage/plugin-search-common@1.1.2-next.0
+
 ## 1.0.5-next.0
 
 ### Patch Changes

@@ -1,5 +1,20 @@
 # @backstage/backend-common
 
+## 0.16.1-next.1
+
+### Patch Changes
+
+- d3fea4ae0a: Internal fixes to avoid implicit usage of globals
+- 1f2b2de3fe: exported KubernetesContainerRunner, KubernetesContainerRunnerOptions, KubernetesContainerRunnerMountBase
+- 6b82598bd8: Added the ability to understand Job Artifact URLs to the GitLab integration
+- Updated dependencies
+  - @backstage/config-loader@1.1.7-next.1
+  - @backstage/config@1.0.5-next.0
+  - @backstage/integration@1.4.1-next.0
+  - @backstage/cli-common@0.1.10
+  - @backstage/errors@1.1.4-next.0
+  - @backstage/types@1.0.2-next.0
+
 ## 0.16.1-next.0
 
 ### Patch Changes
